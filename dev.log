@@ -1,0 +1,50 @@
+
+> haseeb-portfolio@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 5.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.5s (529 modules)
+ GET / 200 in 11181ms
+ GET / 200 in 194ms
+ GET / 200 in 405ms
+ ✓ Compiled in 1155ms (502 modules)
+ ✓ Compiled in 943ms (502 modules)
+ ✓ Compiled in 702ms (502 modules)
+ GET / 200 in 194ms
+ ✓ Compiled in 1026ms (502 modules)
+ ✓ Compiled in 893ms (502 modules)
+ ✓ Compiled in 856ms (502 modules)
+ GET / 200 in 324ms
+ ✓ Compiled in 1113ms (502 modules)
+ ✓ Compiled in 1145ms (502 modules)
+ GET / 200 in 454ms
+ ✓ Compiled in 755ms (247 modules)
+ GET / 200 in 193ms
+ GET / 200 in 204ms
+ GET / 200 in 316ms
+ ✓ Compiled in 884ms (247 modules)
+ ✓ Compiled in 1827ms (502 modules)
+ GET / 200 in 572ms
+ GET / 200 in 580ms
+ GET / 200 in 348ms
+ GET / 200 in 126ms
+ GET / 200 in 404ms
+ ✓ Compiled in 1335ms (502 modules)
+ GET / 200 in 801ms
+ GET / 200 in 149ms
+ GET / 200 in 121ms
+ GET / 200 in 761ms
+ ✓ Compiled in 1820ms (488 modules)
+ ✓ Compiled in 739ms (502 modules)
+ GET / 200 in 307ms
+ GET / 200 in 463ms
+ ✓ Compiled in 694ms (488 modules)
+ ✓ Compiled in 758ms (502 modules)
+ GET / 200 in 374ms
+ ✓ Compiled in 696ms (488 modules)
+ ✓ Compiled in 563ms (488 modules)
