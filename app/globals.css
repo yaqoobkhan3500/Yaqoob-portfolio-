@@ -648,3 +648,18 @@ body{background:radial-gradient(900px 520px at 72% 88%,rgba(160,65,30,.26),trans
   .ticker-rule{margin-top:1.6rem}
 }
 @media(prefers-reduced-motion:reduce){.ticker-scroll{overflow-x:auto}.ticker-track{animation:none}}
+
+/* ===== Responsive fixes: later rules restore the single-column layouts that earlier media queries defined ===== */
+@media(max-width:980px){
+  .hero{grid-template-columns:1fr}
+  .cta-panel{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .svc-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:540px){
+  .stats-row{grid-template-columns:1fr}
+}
+@media(max-width:430px){
+  .mini-stats{grid-template-columns:1fr 1fr}
+}
