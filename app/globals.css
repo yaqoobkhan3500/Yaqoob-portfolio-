@@ -90,7 +90,6 @@ em{font-style:normal;color:var(--orange)}
 .ticker{overflow:hidden;border-top:1px solid rgba(244,122,32,.2);border-bottom:1px solid rgba(244,122,32,.2);background:rgba(0,0,0,.18);padding:.9rem 0}
 .ticker-track{display:flex;gap:1rem;width:max-content;animation:tick 40s linear infinite}
 .ticker-item{padding:.45rem 1.1rem;border-radius:999px;background:var(--panel);border:1px solid var(--line);font-size:.78rem;font-weight:600;white-space:nowrap}
-.ticker:hover .ticker-track{animation-play-state:paused}
 @keyframes tick{to{transform:translateX(-50%)}}
 
 /* about */
@@ -546,9 +545,8 @@ body{background:radial-gradient(900px 520px at 72% 88%,rgba(160,65,30,.26),trans
   .ti{flex-basis:24px;width:24px;height:24px}
 }
 
-/* Continuous ticker motion, paused for interaction and reduced motion */
+/* Continuous ticker motion — always animating, never pauses on hover */
 .ticker-track{animation:ticker-scroll 36s linear infinite}
-.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
 @keyframes ticker-scroll{to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.ticker-track{animation:none}.ticker-item{transition:none}}
 
@@ -596,7 +594,6 @@ body{background:radial-gradient(900px 520px at 72% 88%,rgba(160,65,30,.26),trans
   animation:ticker-scroll 48s linear infinite reverse;
   will-change:transform;
 }
-.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
 .ticker-item{
   display:flex;
   flex:0 0 auto;
