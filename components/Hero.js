@@ -48,7 +48,9 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-visual">
-        <div className="hero-card"><img src="/assets/yk-01.png" alt="Yaqoob Khan portrait" /></div>
+        <div className="hero-image-wrap">
+          <div className="hero-card"><img src="/assets/yk-01.png" alt="Yaqoob Khan portrait" /></div>
+        </div>
         <span className="badge b1">Full-Stack Developer</span>
         <span className="badge b2">Responsive Design</span>
         <span className="badge b3">Clean Code</span>
