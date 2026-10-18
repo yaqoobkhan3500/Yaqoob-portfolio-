@@ -715,3 +715,9 @@ html{scroll-padding-top:110px}
   .brand-text i{display:none}
   .hero-stats{gap:1.8rem}
 }
+/* loader: keep text inside the viewport and rings unclipped on small phones */
+.loader-title,.loader-sub{text-align:center;padding:0 clamp(1rem,5vw,3rem)}
+@media(max-width:420px){
+  .ring{inset:-30px}
+  .ring.r2{inset:-50px}
+}
