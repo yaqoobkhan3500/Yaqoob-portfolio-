@@ -721,3 +721,37 @@ html{scroll-padding-top:110px}
   .ring{inset:-30px}
   .ring.r2{inset:-50px}
 }
+
+/* Home section: mobile-only content alignment and spacing. */
+@media(max-width:600px){
+  .hero{
+    grid-template-columns:minmax(0,1fr);
+    gap:0;
+    padding:7rem 5vw 2rem;
+    text-align:center;
+  }
+  .hero-text{min-width:0}
+  .hero-visual{
+    order:-1;
+    justify-self:stretch;
+    width:100%;
+    height:3rem;
+    overflow:hidden;
+  }
+  .hero-image-wrap,.hero-card{height:100%}
+  .hero-card{aspect-ratio:auto;border-radius:18px}
+  .hero-name{font-size:clamp(3rem,13vw,4rem);overflow-wrap:anywhere}
+  .typed{margin:1.5rem 0;min-height:0;overflow-wrap:anywhere}
+  .hero-desc{width:100%;max-width:34rem;margin:0 auto 1.4rem}
+  .socials{justify-content:center}
+  .hero-btns{flex-direction:column;align-items:center;gap:.8rem}
+  .hero-btns .btn{width:min(100%,18rem)}
+  .hero-stats{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:1.25rem;padding:0}
+  .hero-stats>div{width:100%;max-width:18rem}
+  .wa{right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom))}
+}
+
+@media(max-width:360px){
+  .hero{padding-right:1rem;padding-left:1rem}
+  .hero-name{font-size:clamp(2.8rem,13vw,3.2rem)}
+}
