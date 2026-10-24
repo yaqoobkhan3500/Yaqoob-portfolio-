@@ -721,3 +721,15 @@ html{scroll-padding-top:110px}
   .ring{inset:-30px}
   .ring.r2{inset:-50px}
 }
+
+/* Mobile home layout: keep the existing visual style and match the reference composition. */
+@media(max-width:600px){
+  .hero{grid-template-columns:minmax(0,1fr);gap:0;padding:7.5rem 5vw 2rem;align-items:start}
+  .hero-visual{order:-1;justify-self:stretch;width:100%;height:70px;overflow:hidden}
+  .hero-image-wrap{height:100%}
+  .hero-card{height:100%;aspect-ratio:auto;border-radius:22px}
+  .hero-name{font-size:clamp(3rem,13vw,4rem)}
+  .typed{font-size:clamp(1.7rem,7.5vw,2.2rem);margin:1.7rem 0 1.5rem}
+  .hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;padding-left:0}
+  .hero-stats strong{font-size:clamp(2.4rem,12vw,3.3rem)}
+}
