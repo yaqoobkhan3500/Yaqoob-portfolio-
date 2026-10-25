@@ -733,13 +733,15 @@ html{scroll-padding-top:110px}
   .hero-text{min-width:0}
   .hero-visual{
     order:-1;
-    justify-self:stretch;
-    width:100%;
-    height:3rem;
-    overflow:hidden;
+    justify-self:center;
+    width:min(68vw,270px);
+    height:auto;
+    overflow:visible;
+    margin:0 auto 1.75rem;
   }
-  .hero-image-wrap,.hero-card{height:100%}
-  .hero-card{aspect-ratio:auto;border-radius:18px}
+  .hero-image-wrap{height:auto}
+  .hero-card{position:relative;height:auto;aspect-ratio:500/748;border-radius:26px}
+  .hero-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}
   .hero-name{font-size:clamp(3rem,13vw,4rem);overflow-wrap:anywhere}
   .typed{margin:1.5rem 0;min-height:0;overflow-wrap:anywhere}
   .hero-desc{width:100%;max-width:34rem;margin:0 auto 1.4rem}
