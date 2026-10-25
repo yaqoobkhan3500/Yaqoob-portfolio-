@@ -2,11 +2,11 @@ import { Open_Sans, Archivo_Black, Archivo_Narrow } from "next/font/google";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({ subsets: ["latin"], weight: "400", variable: "--font-hf", display: "swap" });
-const archivoNarrow = Archivo_Narrow({ subsets: ["latin"], weight: ["600", "700"], variable: "--font-nf", display: "swap" });
+const archivoNarrow = Archivo_Narrow({ subsets: ["latin"], weight: "variable", variable: "--font-nf", display: "swap" });
 
 const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+  weight: "variable",
   variable: "--font-open",
   display: "swap",
 });
