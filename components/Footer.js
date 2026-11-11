@@ -14,8 +14,10 @@ export default function Footer() {
               <a href="#portfolio" className="btn btn-ghost btn-sm">VIEW WORK</a>
             </div>
             <div className="socials sm">
-              <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer">in</a>
-              <a href={SITE.fiverr} target="_blank" rel="noopener noreferrer" aria-label="Fiverr" className="fiverr">
+              <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="logo">
+                <img src="/assets/linkedin.svg" alt="LinkedIn" />
+              </a>
+              <a href={SITE.fiverr} target="_blank" rel="noopener noreferrer" aria-label="Fiverr" className="logo">
                 <img src="/assets/fiverr.png" alt="Fiverr" />
               </a>
               <a href={SITE.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
