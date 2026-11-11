@@ -15,7 +15,6 @@ export default function Footer() {
             </div>
             <div className="socials sm">
               <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer">in</a>
-              <a href={SITE.behance} target="_blank" rel="noopener noreferrer">Bē</a>
             </div>
           </div>
           <div>

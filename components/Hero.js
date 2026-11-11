@@ -35,7 +35,6 @@ export default function Hero() {
         </p>
         <div className="socials">
           <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
-          <a href={SITE.behance} target="_blank" rel="noopener noreferrer" aria-label="Behance">Bē</a>
         </div>
         <div className="hero-btns">
           <a href="#portfolio" className="btn btn-primary">View My Work</a>
