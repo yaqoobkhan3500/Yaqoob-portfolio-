@@ -22,7 +22,7 @@ export default function Loader() {
         <span className="ring r2" />
         <img src="/assets/logo.png" alt="Yaqoob Khan logo" />
       </div>
-      <h1 className="loader-title">Welcome to Yaqoob Khan's Portfolio</h1>
+      <h1 className="loader-title">Welcome to Yaqoob Khan Portfolio</h1>
       <p className="loader-sub">BUILDING YOUR DIGITAL EXPERIENCE</p>
     </div>
   );
